@@ -6,14 +6,15 @@
     "pages/mine/main"
   ],
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#ff2d4a",
+    "navigationBarTitleText": "Ugo",
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "color":"#353535",
     "selectedColor":"#eb4450",
+    "borderStyle":"white",
     "list": [{
       "pagePath": "pages/index/main",
       "text": "首页",
