@@ -102,11 +102,11 @@ export default {
   // 触底事件
   onReachBottom(){
     this.isBottom = true;
-    console.log("触碰到我底线啦");
+    // console.log("触碰到我底线啦");
   },
   // 滚动事件
   onPageScroll(e){
-    console.log(e);
+    // console.log(e);
     if(e.scrollTop>500){
       this.showTop = true;
     }else{
@@ -246,6 +246,11 @@ $ygColor:#ff2d4a;
   ._p{
 
   }
+}
+
+// 轮播图样式
+swiper ._img{
+  width: 100%;
 }
 
 </style>
